@@ -56,7 +56,7 @@ Controla `CTRL+C` para salir limpiamente.
 ---
 
 # Requisitos
-- `bash` >= 4  
+- `bash` 
 - `curl`  
 - `md5sum`  
 - `js-beautify`  
