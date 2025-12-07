@@ -66,9 +66,4 @@ Controla `CTRL+C` para salir limpiamente.
 
 ---
 
-# Pasos para ejecutar el script
 
-1. Clonar repositorio:
-```bash
-git clone <url-repo> [nombre_proyecto]
-cd [nombre_proyecto]
