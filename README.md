@@ -1,23 +1,13 @@
 # Buscador-de-Labs
-Script Bash orientado a ciberseguridad para consultar información de máquinas de HackTheBox utilizando el archivo `bundle.js`. Permite búsquedas por nombre, IP, dificultad, sistema operativo, skill o enlace de resolución, además de actualizar automáticamente la base de datos local.
+Script en Bash orientado a ciberseguridad para consultar información de máquinas de HackTheBox utilizando el archivo `bundle.js`. Permite búsquedas por nombre, IP, dificultad, sistema operativo, skill o enlace de resolución, además de actualizar automáticamente la base de datos local.
 
 ---
 
 # Propósito
 El objetivo del repositorio es mostrar un script técnico que automatiza la consulta de características de máquinas HackTheBox. Su uso es útil en workflows de pentesting, preparación de certificaciones o gestión de laboratorios personales.
 
----
-
-# Lista de scripts
-| Archivo | Qué hace | Problema que resuelve | Casos de uso |
-|--------|----------|------------------------|--------------|
-| `htb_query.sh` | Consulta máquinas HackTheBox desde `bundle.js`, permite actualizar la base de datos y filtrar por distintos criterios | Evita búsquedas manuales dentro del bundle oficial y permite obtener información de forma directa y organizada | Preparación de labs HTB, documentación de máquinas, automatización en procesos de estudio |
-
----
 
 # Descripción detallada del script
-
-## `htb_query.sh`
 
 ### Función principal
 Automatiza la consulta de datos de máquinas HackTheBox. Trabaja sobre el archivo `bundle.js` alojado en `https://htbmachines.github.io/bundle.js`, permitiendo buscar:
